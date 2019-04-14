@@ -32,13 +32,12 @@ export default class TreeNode extends Component {
             <span className='tree-icon'>
               {this.props.node.type === 'folder' ?
                 this.state.expanded ? 'v' : '>' :
-                '-'
+                '*'
               }
             </span>
             {this.props.node.name}
           </div>
         </div>
-
         {
           this.state.expanded &&
           this.props.node.type === 'folder' &&
@@ -55,7 +54,6 @@ export default class TreeNode extends Component {
               <div className='tree-message-empty'>Folder is empty</div>
             }
           </div>
-
         }
       </div>
     )

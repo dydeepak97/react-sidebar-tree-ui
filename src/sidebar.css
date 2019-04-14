@@ -1,9 +1,12 @@
 .sidebar {
   position: absolute;
+  height: 100%;
   text-align: left;
   width: 25%;
   z-index: 1;
   background-color: #fff;
+  font-size: 14px;
+  border-right: 1px solid #A5A5A5;
 }
 
 .tree-node {
@@ -34,4 +37,6 @@
 
 .tree-message-empty {
   padding: 8px;
+  color: #A5A5A5;
+  font-size: 12px;
 }
