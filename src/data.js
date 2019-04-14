@@ -11,11 +11,20 @@ export const fileData = [
             name: 'One1',
             type: 'folder',
             children: [
-
+              {
+                name: 'one11.jpg',
+                type: 'file',
+                children: []
+              }
             ]
           },
           {
-            name: 'One2.jpg',
+            name: 'one2.jpg',
+            type: 'file',
+            children: []
+          },
+          {
+            name: 'one3.jpg',
             type: 'file',
             children: []
           }
